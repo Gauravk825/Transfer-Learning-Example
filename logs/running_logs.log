@@ -1,0 +1,29 @@
+[2024-06-30 17:00:43,641: INFO: prepare_base_model]: 
+********************
+[2024-06-30 17:00:43,641: INFO: prepare_base_model]: >>>>> stage prepare a base model  started <<<<<
+[2024-06-30 17:00:43,641: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-06-30 17:00:44,393: ERROR: prepare_base_model]: Data cardinality is ambiguous:
+  x sizes: 55000
+  y sizes: 59500
+Make sure all arrays contain the same number of samples.
+Traceback (most recent call last):
+  File "src/prepare_base_model.py", line 81, in <module>
+    main(config_path=parsed_args.config)
+  File "src/prepare_base_model.py", line 62, in main
+    validation_data=(X_valid, y_valid), verbose=2)
+  File "D:\Pg-DAI\MyDNN\Transfer_learning_Example\Transfer-Learning-Example\env\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\Pg-DAI\MyDNN\Transfer_learning_Example\Transfer-Learning-Example\env\lib\site-packages\keras\engine\data_adapter.py", line 1848, in _check_data_cardinality
+    raise ValueError(msg)
+ValueError: Data cardinality is ambiguous:
+  x sizes: 55000
+  y sizes: 59500
+Make sure all arrays contain the same number of samples.
+[2024-06-30 17:03:31,243: INFO: prepare_base_model]: 
+********************
+[2024-06-30 17:03:31,243: INFO: prepare_base_model]: >>>>> stage prepare a base model  started <<<<<
+[2024-06-30 17:03:31,243: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-06-30 17:04:02,893: INFO: common]: created directory at: artifacts\models
+[2024-06-30 17:04:02,935: INFO: prepare_base_model]: base model is saved at artifacts\models\base_model.h5
+[2024-06-30 17:04:02,962: INFO: prepare_base_model]: >>>>> stage prepare a base model  completed!<<<<<
+
