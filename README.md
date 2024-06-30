@@ -1,5 +1,5 @@
-# dvc-project-template
-DVC project template
+# Transfer-Learning-example
+Transfer-Learning-example
 
 ## STEPS -
 
@@ -27,8 +27,6 @@ pip install -r requirements.txt
 ```
 
 ### STEP 05- initialize the dvc project
-```bash
-dvc init
-```
+
 
 ### STEP 06- commit and push the changes to the remote repository
