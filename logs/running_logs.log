@@ -27,3 +27,9 @@ Make sure all arrays contain the same number of samples.
 [2024-06-30 17:04:02,935: INFO: prepare_base_model]: base model is saved at artifacts\models\base_model.h5
 [2024-06-30 17:04:02,962: INFO: prepare_base_model]: >>>>> stage prepare a base model  completed!<<<<<
 
+[2024-06-30 18:21:34,831: INFO: Transfer_learning]: 
+********************
+[2024-06-30 18:21:34,831: INFO: Transfer_learning]: >>>>> stage transfer learning started <<<<<
+[2024-06-30 18:21:34,831: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2024-06-30 18:22:02,069: INFO: Transfer_learning]: >>>>> stage transfer learning completed!<<<<<
+
